@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="51" passed="51" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Check box for Show Nick Name, Smoker and Military Service in Personal Details is Enabled: false]]>
+    </line>
+    <line>
+      <![CDATA[Check box for SSN field in Personal Detail is Enabled: false]]>
+    </line>
+    <line>
+      <![CDATA[Check box for SIN field in Personal Details is Enabled: false]]>
+    </line>
+    <line>
+      <![CDATA[Check box for US Tax field in Personal Details is Enabled: false]]>
+    </line>
+    <line>
+      <![CDATA[test execution completed !!!]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-10-17T21:06:59Z" name="Functional Testing" finished-at="2021-10-17T21:08:59Z" duration-ms="119652">
+    <groups>
+    </groups>
+    <test started-at="2021-10-17T21:06:59Z" name="Login" finished-at="2021-10-17T21:07:03Z" duration-ms="4092">
+      <class name="testcases.Login">
+        <test-method signature="InvalidLogin()[pri:1, instance:testcases.Login@5cad8b7d]" started-at="2021-10-17T21:06:59Z" name="InvalidLogin" finished-at="2021-10-17T21:07:01Z" duration-ms="1528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method signature="EmptyLogin()[pri:2, instance:testcases.Login@5cad8b7d]" started-at="2021-10-17T21:07:01Z" name="EmptyLogin" finished-at="2021-10-17T21:07:01Z" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyLogin -->
+        <test-method signature="loginSuccessfully()[pri:3, instance:testcases.Login@5cad8b7d]" started-at="2021-10-17T21:07:01Z" name="loginSuccessfully" finished-at="2021-10-17T21:07:03Z" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessfully -->
+      </class> <!-- testcases.Login -->
+    </test> <!-- Login -->
+    <test started-at="2021-10-17T21:07:04Z" name="Add User In a Record" finished-at="2021-10-17T21:07:06Z" duration-ms="1862">
+      <class name="testcases.User">
+        <test-method signature="SystemUser()[pri:4, instance:testcases.User@24528a25]" started-at="2021-10-17T21:07:04Z" name="SystemUser" finished-at="2021-10-17T21:07:06Z" duration-ms="1856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SystemUser -->
+      </class> <!-- testcases.User -->
+    </test> <!-- Add User In a Record -->
+    <test started-at="2021-10-17T21:07:06Z" name="Edit And Delete User" finished-at="2021-10-17T21:07:20Z" duration-ms="14515">
+      <class name="testcases.Systemuser">
+        <test-method signature="VerifyEditRecord()[pri:6, instance:testcases.Systemuser@2e27d72f]" started-at="2021-10-17T21:07:06Z" name="VerifyEditRecord" finished-at="2021-10-17T21:07:19Z" duration-ms="12947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditRecord -->
+        <test-method signature="VerifyDeleteRecord()[pri:7, instance:testcases.Systemuser@2e27d72f]" started-at="2021-10-17T21:07:19Z" name="VerifyDeleteRecord" finished-at="2021-10-17T21:07:20Z" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteRecord -->
+      </class> <!-- testcases.Systemuser -->
+    </test> <!-- Edit And Delete User -->
+    <test started-at="2021-10-17T21:07:21Z" name="Subscribe the User with Email" finished-at="2021-10-17T21:07:23Z" duration-ms="2142">
+      <class name="testcases.Subscribe">
+        <test-method signature="successfullySubscribeEmail()[pri:8, instance:testcases.Subscribe@46292372]" started-at="2021-10-17T21:07:21Z" name="successfullySubscribeEmail" finished-at="2021-10-17T21:07:23Z" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullySubscribeEmail -->
+      </class> <!-- testcases.Subscribe -->
+    </test> <!-- Subscribe the User with Email -->
+    <test started-at="2021-10-17T21:07:23Z" name="Add Job through excel record" finished-at="2021-10-17T21:07:31Z" duration-ms="8482">
+      <class name="testcases.AddJobTitle">
+        <test-method signature="VerifyUserOnAddJobTitlePage()[pri:9, instance:testcases.AddJobTitle@d4ab71a]" started-at="2021-10-17T21:07:23Z" name="VerifyUserOnAddJobTitlePage" finished-at="2021-10-17T21:07:24Z" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserOnAddJobTitlePage -->
+        <test-method signature="Add_JobTittle(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:testcases.AddJobTitle@d4ab71a]" started-at="2021-10-17T21:07:24Z" name="Add_JobTittle" data-provider="getData" finished-at="2021-10-17T21:07:26Z" duration-ms="2049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Founder]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SQA Trainings]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Zeeshan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[E:\img\\1.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_JobTittle -->
+        <test-method signature="Add_JobTittle(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:testcases.AddJobTitle@d4ab71a]" started-at="2021-10-17T21:07:26Z" name="Add_JobTittle" data-provider="getData" finished-at="2021-10-17T21:07:28Z" duration-ms="2045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Co Founder]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SQA Training]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Imran]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[E:\img\\1.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_JobTittle -->
+        <test-method signature="Add_JobTittle(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:testcases.AddJobTitle@d4ab71a]" started-at="2021-10-17T21:07:28Z" name="Add_JobTittle" data-provider="getData" finished-at="2021-10-17T21:07:30Z" duration-ms="1869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Coordinator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SQA Traininggs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[uneeba]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[E:\img\\1.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_JobTittle -->
+        <test-method signature="DeleteAllRecord()[pri:11, instance:testcases.AddJobTitle@d4ab71a]" started-at="2021-10-17T21:07:30Z" name="DeleteAllRecord" finished-at="2021-10-17T21:07:31Z" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAllRecord -->
+      </class> <!-- testcases.AddJobTitle -->
+    </test> <!-- Add Job through excel record -->
+    <test started-at="2021-10-17T21:07:32Z" name="Edit Configure" finished-at="2021-10-17T21:07:34Z" duration-ms="2238">
+      <class name="testcases.Configure">
+        <test-method signature="VerifyUserOnConfigurePimPage()[pri:12, instance:testcases.Configure@6979efad]" started-at="2021-10-17T21:07:32Z" name="VerifyUserOnConfigurePimPage" finished-at="2021-10-17T21:07:32Z" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserOnConfigurePimPage -->
+        <test-method signature="VerifyStatusOfCheckBoxesBeforeEdit()[pri:13, instance:testcases.Configure@6979efad]" started-at="2021-10-17T21:07:32Z" name="VerifyStatusOfCheckBoxesBeforeEdit" finished-at="2021-10-17T21:07:33Z" duration-ms="152" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Check box for Show Nick Name, Smoker and Military Service in Personal Details is Enabled: false]]>
+            </line>
+            <line>
+              <![CDATA[Check box for SSN field in Personal Detail is Enabled: false]]>
+            </line>
+            <line>
+              <![CDATA[Check box for SIN field in Personal Details is Enabled: false]]>
+            </line>
+            <line>
+              <![CDATA[Check box for US Tax field in Personal Details is Enabled: false]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyStatusOfCheckBoxesBeforeEdit -->
+        <test-method signature="Updatecheckboxes()[pri:14, instance:testcases.Configure@6979efad]" started-at="2021-10-17T21:07:33Z" name="Updatecheckboxes" finished-at="2021-10-17T21:07:34Z" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Updatecheckboxes -->
+      </class> <!-- testcases.Configure -->
+    </test> <!-- Edit Configure -->
+    <test started-at="2021-10-17T21:07:34Z" name="Add Edit and Delete CustomField" finished-at="2021-10-17T21:07:39Z" duration-ms="5511">
+      <class name="testcases.CustomField">
+        <test-method signature="validateUserlandOnAccurateSection()[pri:15, instance:testcases.CustomField@273c947f]" started-at="2021-10-17T21:07:34Z" name="validateUserlandOnAccurateSection" finished-at="2021-10-17T21:07:35Z" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserlandOnAccurateSection -->
+        <test-method signature="VerifyAddCustomFieldSuccessfully()[pri:16, instance:testcases.CustomField@273c947f]" started-at="2021-10-17T21:07:35Z" name="VerifyAddCustomFieldSuccessfully" finished-at="2021-10-17T21:07:36Z" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddCustomFieldSuccessfully -->
+        <test-method signature="VerifyEditCustomFieldsuccessfully()[pri:17, instance:testcases.CustomField@273c947f]" started-at="2021-10-17T21:07:36Z" name="VerifyEditCustomFieldsuccessfully" finished-at="2021-10-17T21:07:38Z" duration-ms="1690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditCustomFieldsuccessfully -->
+        <test-method signature="DeleteCustomFieldSuccessfully()[pri:18, instance:testcases.CustomField@273c947f]" started-at="2021-10-17T21:07:38Z" name="DeleteCustomFieldSuccessfully" finished-at="2021-10-17T21:07:39Z" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomFieldSuccessfully -->
+      </class> <!-- testcases.CustomField -->
+    </test> <!-- Add Edit and Delete CustomField -->
+    <test started-at="2021-10-17T21:07:39Z" name="Verify File upload and Download" finished-at="2021-10-17T21:07:42Z" duration-ms="3047">
+      <class name="testcases.DataImport">
+        <test-method signature="ValidateUserLandOnCorrectPage()[pri:19, instance:testcases.DataImport@12365c88]" started-at="2021-10-17T21:07:39Z" name="ValidateUserLandOnCorrectPage" finished-at="2021-10-17T21:07:40Z" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUserLandOnCorrectPage -->
+        <test-method signature="VerifyFileSuccessfullyDownloaded()[pri:20, instance:testcases.DataImport@12365c88]" started-at="2021-10-17T21:07:40Z" name="VerifyFileSuccessfullyDownloaded" finished-at="2021-10-17T21:07:41Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFileSuccessfullyDownloaded -->
+        <test-method signature="ValidateFileuploadSuccessfully()[pri:21, instance:testcases.DataImport@12365c88]" started-at="2021-10-17T21:07:41Z" name="ValidateFileuploadSuccessfully" finished-at="2021-10-17T21:07:42Z" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFileuploadSuccessfully -->
+        <test-method signature="ValidationErrorShowOnEmptyFile()[pri:22, instance:testcases.DataImport@12365c88]" started-at="2021-10-17T21:07:42Z" name="ValidationErrorShowOnEmptyFile" finished-at="2021-10-17T21:07:42Z" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidationErrorShowOnEmptyFile -->
+      </class> <!-- testcases.DataImport -->
+    </test> <!-- Verify File upload and Download -->
+    <test started-at="2021-10-17T21:07:43Z" name="Add and Delete Reporting" finished-at="2021-10-17T21:07:46Z" duration-ms="3474">
+      <class name="testcases.ReportingMethod">
+        <test-method signature="ValidateUserLandOnAReportingMethods()[pri:23, instance:testcases.ReportingMethod@2c1dc8e]" started-at="2021-10-17T21:07:43Z" name="ValidateUserLandOnAReportingMethods" finished-at="2021-10-17T21:07:44Z" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUserLandOnAReportingMethods -->
+        <test-method signature="VerifyAddReportingMethod()[pri:24, instance:testcases.ReportingMethod@2c1dc8e]" started-at="2021-10-17T21:07:44Z" name="VerifyAddReportingMethod" finished-at="2021-10-17T21:07:45Z" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddReportingMethod -->
+        <test-method signature="VerifyReportingMethodDeleteSuccessfully()[pri:25, instance:testcases.ReportingMethod@2c1dc8e]" started-at="2021-10-17T21:07:45Z" name="VerifyReportingMethodDeleteSuccessfully" finished-at="2021-10-17T21:07:46Z" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyReportingMethodDeleteSuccessfully -->
+      </class> <!-- testcases.ReportingMethod -->
+    </test> <!-- Add and Delete Reporting -->
+    <test started-at="2021-10-17T21:07:46Z" name="Add Employee through Excel Sheet" finished-at="2021-10-17T21:07:59Z" duration-ms="12769">
+      <class name="testcases.AddEmployee">
+        <test-method signature="VerifyUserOnAddEmployeeSection()[pri:26, instance:testcases.AddEmployee@61019f59]" started-at="2021-10-17T21:07:46Z" name="VerifyUserOnAddEmployeeSection" finished-at="2021-10-17T21:07:47Z" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserOnAddEmployeeSection -->
+        <test-method signature="VerifyAddEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:27, instance:testcases.AddEmployee@61019f59]" started-at="2021-10-17T21:07:47Z" name="VerifyAddEmployee" data-provider="getEmployeeData" finished-at="2021-10-17T21:07:50Z" duration-ms="2642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hammad Ali 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan 1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddEmployee -->
+        <test-method signature="VerifyAddEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:27, instance:testcases.AddEmployee@61019f59]" started-at="2021-10-17T21:07:50Z" name="VerifyAddEmployee" data-provider="getEmployeeData" finished-at="2021-10-17T21:07:52Z" duration-ms="2338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hammad Ali 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan 2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddEmployee -->
+        <test-method signature="VerifyAddEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:27, instance:testcases.AddEmployee@61019f59]" started-at="2021-10-17T21:07:52Z" name="VerifyAddEmployee" data-provider="getEmployeeData" finished-at="2021-10-17T21:07:55Z" duration-ms="2272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hammad Ali 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan 3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddEmployee -->
+        <test-method signature="VerifyAddEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:27, instance:testcases.AddEmployee@61019f59]" started-at="2021-10-17T21:07:55Z" name="VerifyAddEmployee" data-provider="getEmployeeData" finished-at="2021-10-17T21:07:57Z" duration-ms="2242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hammad Ali 4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan 4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddEmployee -->
+        <test-method signature="VerifyAddEmployee(java.lang.String, java.lang.String, java.lang.String)[pri:27, instance:testcases.AddEmployee@61019f59]" started-at="2021-10-17T21:07:57Z" name="VerifyAddEmployee" data-provider="getEmployeeData" finished-at="2021-10-17T21:07:59Z" duration-ms="2272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hammad Ali 5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan 5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddEmployee -->
+      </class> <!-- testcases.AddEmployee -->
+    </test> <!-- Add Employee through Excel Sheet -->
+    <test started-at="2021-10-17T21:07:59Z" name="Delete Employee which are added through excel sheet" finished-at="2021-10-17T21:08:11Z" duration-ms="12023">
+      <class name="testcases.DeleteEmployee">
+        <test-method signature="DeleteEmployeeSelectedRecord()[pri:28, instance:testcases.DeleteEmployee@30865a90]" started-at="2021-10-17T21:07:59Z" name="DeleteEmployeeSelectedRecord" finished-at="2021-10-17T21:08:10Z" duration-ms="11226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEmployeeSelectedRecord -->
+        <test-method signature="VerifyDeletedRecordNotFoundInList()[pri:29, instance:testcases.DeleteEmployee@30865a90]" started-at="2021-10-17T21:08:10Z" name="VerifyDeletedRecordNotFoundInList" finished-at="2021-10-17T21:08:11Z" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeletedRecordNotFoundInList -->
+      </class> <!-- testcases.DeleteEmployee -->
+    </test> <!-- Delete Employee which are added through excel sheet -->
+    <test started-at="2021-10-17T21:08:11Z" name="Edit Employee record" finished-at="2021-10-17T21:08:45Z" duration-ms="33803">
+      <class name="testcases.EditEmployeeRecord">
+        <test-method signature="verifyDateValidationMesageshow()[pri:30, instance:testcases.EditEmployeeRecord@420745d7]" started-at="2021-10-17T21:08:11Z" name="verifyDateValidationMesageshow" finished-at="2021-10-17T21:08:14Z" duration-ms="2398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateValidationMesageshow -->
+        <test-method signature="VerifyEmployeeRecordEditSuccessfully()[pri:31, instance:testcases.EditEmployeeRecord@420745d7]" started-at="2021-10-17T21:08:14Z" name="VerifyEmployeeRecordEditSuccessfully" finished-at="2021-10-17T21:08:17Z" duration-ms="2985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmployeeRecordEditSuccessfully -->
+        <test-method signature="VerifyCustomFieldEditSuccessfully()[pri:32, instance:testcases.EditEmployeeRecord@420745d7]" started-at="2021-10-17T21:08:17Z" name="VerifyCustomFieldEditSuccessfully" finished-at="2021-10-17T21:08:18Z" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCustomFieldEditSuccessfully -->
+        <test-method signature="VerifyFileAttachmentSuccessfully()[pri:33, instance:testcases.EditEmployeeRecord@420745d7]" started-at="2021-10-17T21:08:18Z" name="VerifyFileAttachmentSuccessfully" finished-at="2021-10-17T21:08:20Z" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFileAttachmentSuccessfully -->
+        <test-method signature="VerifyEmployeeProfilePictureUploadSuccessfully()[pri:34, instance:testcases.EditEmployeeRecord@420745d7]" started-at="2021-10-17T21:08:20Z" name="VerifyEmployeeProfilePictureUploadSuccessfully" finished-at="2021-10-17T21:08:22Z" duration-ms="1891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmployeeProfilePictureUploadSuccessfully -->
+        <test-method signature="VerifyContactDetailAddedSuccessfully()[pri:35, instance:testcases.EditEmployeeRecord@420745d7]" started-at="2021-10-17T21:08:22Z" name="VerifyContactDetailAddedSuccessfully" finished-at="2021-10-17T21:08:25Z" duration-ms="3121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContactDetailAddedSuccessfully -->
+        <test-method signature="ValidateEmergencyContactAddedSuccessfully()[pri:36, instance:testcases.EditEmployeeRecord@420745d7]" started-at="2021-10-17T21:08:25Z" name="ValidateEmergencyContactAddedSuccessfully" finished-at="2021-10-17T21:08:27Z" duration-ms="2551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateEmergencyContactAddedSuccessfully -->
+        <test-method signature="ValidateImmigrationRecordAddedSuccessfully()[pri:37, instance:testcases.EditEmployeeRecord@420745d7]" started-at="2021-10-17T21:08:27Z" name="ValidateImmigrationRecordAddedSuccessfully" finished-at="2021-10-17T21:08:30Z" duration-ms="2472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateImmigrationRecordAddedSuccessfully -->
+        <test-method signature="ValidatejobEditSuccessfully()[pri:38, instance:testcases.EditEmployeeRecord@420745d7]" started-at="2021-10-17T21:08:30Z" name="ValidatejobEditSuccessfully" finished-at="2021-10-17T21:08:33Z" duration-ms="2905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatejobEditSuccessfully -->
+        <test-method signature="ValidateSalaryAddedSuccessfully()[pri:39, instance:testcases.EditEmployeeRecord@420745d7]" started-at="2021-10-17T21:08:33Z" name="ValidateSalaryAddedSuccessfully" finished-at="2021-10-17T21:08:36Z" duration-ms="2999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSalaryAddedSuccessfully -->
+        <test-method signature="ValidateTaxExemptionAddedSuccessfully()[pri:40, instance:testcases.EditEmployeeRecord@420745d7]" started-at="2021-10-17T21:08:36Z" name="ValidateTaxExemptionAddedSuccessfully" finished-at="2021-10-17T21:08:38Z" duration-ms="2305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTaxExemptionAddedSuccessfully -->
+        <test-method signature="ValidateMemberShipEditSuccessFully()[pri:41, instance:testcases.EditEmployeeRecord@420745d7]" started-at="2021-10-17T21:08:38Z" name="ValidateMemberShipEditSuccessFully" finished-at="2021-10-17T21:08:42Z" duration-ms="3711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMemberShipEditSuccessFully -->
+        <test-method signature="ValidateEditEmployeeDeletedSuccessfully()[pri:42, instance:testcases.EditEmployeeRecord@420745d7]" started-at="2021-10-17T21:08:42Z" name="ValidateEditEmployeeDeletedSuccessfully" finished-at="2021-10-17T21:08:45Z" duration-ms="3456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateEditEmployeeDeletedSuccessfully -->
+      </class> <!-- testcases.EditEmployeeRecord -->
+    </test> <!-- Edit Employee record -->
+    <test started-at="2021-10-17T21:08:45Z" name="Add and Delete Post from Buzz section" finished-at="2021-10-17T21:08:56Z" duration-ms="10424">
+      <class name="testcases.Buzz">
+        <test-method signature="VerifyUserAddPostSuccessfully()[pri:43, instance:testcases.Buzz@30f4b1a6]" started-at="2021-10-17T21:08:45Z" name="VerifyUserAddPostSuccessfully" finished-at="2021-10-17T21:08:54Z" duration-ms="8287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserAddPostSuccessfully -->
+        <test-method signature="VerifyImagePostSuccessfully()[pri:44, instance:testcases.Buzz@30f4b1a6]" started-at="2021-10-17T21:08:54Z" name="VerifyImagePostSuccessfully" finished-at="2021-10-17T21:08:54Z" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyImagePostSuccessfully -->
+        <test-method signature="VerifyPostDeletedSuccessfully()[pri:45, instance:testcases.Buzz@30f4b1a6]" started-at="2021-10-17T21:08:54Z" name="VerifyPostDeletedSuccessfully" finished-at="2021-10-17T21:08:56Z" duration-ms="1439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPostDeletedSuccessfully -->
+      </class> <!-- testcases.Buzz -->
+    </test> <!-- Add and Delete Post from Buzz section -->
+    <test started-at="2021-10-17T21:08:56Z" name="Logout From Application" finished-at="2021-10-17T21:08:59Z" duration-ms="3124">
+      <class name="testcases.Logout">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Logout@1ea9f009]" started-at="2021-10-17T21:06:53Z" name="setUp" finished-at="2021-10-17T21:06:59Z" duration-ms="6053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logout()[pri:46, instance:testcases.Logout@1ea9f009]" started-at="2021-10-17T21:08:56Z" name="logout" finished-at="2021-10-17T21:08:59Z" duration-ms="3116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Logout@1ea9f009]" started-at="2021-10-17T21:08:59Z" name="tearDown" finished-at="2021-10-17T21:09:00Z" duration-ms="859" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test execution completed !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Logout -->
+    </test> <!-- Logout From Application -->
+  </suite> <!-- Functional Testing -->
+</testng-results>

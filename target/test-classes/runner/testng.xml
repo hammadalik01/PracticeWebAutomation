@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functional Testing">
+
+	<listeners>
+		<listener class-name="extentlisteners.ExtentListeners"></listener>
+	</listeners>
+	
+	<test name="Login">
+		<classes>
+			<class name="testcases.Login" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Add User In a Record">
+		<classes>
+			<class name="testcases.User" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Edit And Delete User">
+		<classes>
+			<class name="testcases.Systemuser" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Subscribe the User with Email">
+		<classes>
+			<class name="testcases.Subscribe" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Add Job through excel record">
+		<classes>
+			<class name="testcases.AddJobTitle" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Edit Configure">
+		<classes>
+			<class name="testcases.Configure" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Add Edit and Delete CustomField">
+		<classes>
+			<class name="testcases.CustomField" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Verify File upload and Download">
+		<classes>
+			<class name="testcases.DataImport" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Add and Delete Reporting">
+		<classes>
+			<class name="testcases.ReportingMethod" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Add Employee through Excel Sheet">
+		<classes>
+			<class name="testcases.AddEmployee" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Delete Employee which are added through excel sheet">
+		<classes>
+			<class name="testcases.DeleteEmployee" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Edit Employee record">
+		<classes>
+			<class name="testcases.EditEmployeeRecord" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Add and Delete Post from Buzz section">
+		<classes>
+			<class name="testcases.Buzz" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Logout From Application">
+		<classes>
+			<class name="testcases.Logout" />
+		</classes>
+	</test> <!-- Test -->
+
+
+
+</suite> <!-- Suite -->
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional Testing]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="Login(failed)">
+    <classes>
+      <class name="testcases.Login">
+        <methods>
+          <include name="loginSuccessfully"/>
+          <include name="InvalidLogin"/>
+          <include name="setUp"/>
+          <include name="EmptyLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Login -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Functional Testing] -->

@@ -1,0 +1,114 @@
+INFO    2021-10-18 00:06:53,779 [main] devpinoyLogger  - This is the information log
+INFO    2021-10-18 00:06:53,781 [main] devpinoyLogger  - Config file loaded !!!
+ERROR   2021-10-18 00:06:53,781 [main] devpinoyLogger  - Here the error logs will be printed
+INFO    2021-10-18 00:06:53,781 [main] devpinoyLogger  - OR file loaded !!!
+INFO    2021-10-18 00:06:57,381 [main] devpinoyLogger  - Chrome Browser launched
+INFO    2021-10-18 00:06:59,825 [main] devpinoyLogger  - Invalid Credentail
+INFO    2021-10-18 00:07:01,341 [main] devpinoyLogger  - Invalid credential Message show
+INFO    2021-10-18 00:07:01,356 [main] devpinoyLogger  - Both Field Empty
+INFO    2021-10-18 00:07:01,774 [main] devpinoyLogger  - Both Field Empty
+INFO    2021-10-18 00:07:01,780 [main] devpinoyLogger  - insite login
+INFO    2021-10-18 00:07:03,800 [main] devpinoyLogger  - Login successfully
+INFO    2021-10-18 00:07:04,396 [main] devpinoyLogger  - Hover on Admin menu
+INFO    2021-10-18 00:07:04,947 [main] devpinoyLogger  - hover on usermnagement
+INFO    2021-10-18 00:07:05,201 [main] devpinoyLogger  - Click on User
+INFO    2021-10-18 00:07:06,201 [main] devpinoyLogger  - insite System User View
+INFO    2021-10-18 00:07:06,248 [main] devpinoyLogger  - User land on a SystemUserView successfully
+INFO    2021-10-18 00:07:06,407 [main] devpinoyLogger  - Go to Edit user
+INFO    2021-10-18 00:07:06,407 [main] devpinoyLogger  - insite to add user
+INFO    2021-10-18 00:07:07,268 [main] devpinoyLogger  - Go to add user section and select valid data
+INFO    2021-10-18 00:07:08,649 [main] devpinoyLogger  - Enter password less than 8 chracter
+INFO    2021-10-18 00:07:14,673 [main] devpinoyLogger  - User Add successfully
+INFO    2021-10-18 00:07:14,674 [main] devpinoyLogger  - User Add successfully in System User
+INFO    2021-10-18 00:07:14,674 [main] devpinoyLogger  - Go to the record whose user name isDr. Justyn Cartwright
+INFO    2021-10-18 00:07:18,449 [main] devpinoyLogger  - User Edit successfully with message of Successfully Updated
+INFO    2021-10-18 00:07:19,353 [main] devpinoyLogger  - Select user for delete
+INFO    2021-10-18 00:07:19,678 [main] devpinoyLogger  - Popup appear
+INFO    2021-10-18 00:07:19,678 [main] devpinoyLogger  - click on cancel button
+INFO    2021-10-18 00:07:19,804 [main] devpinoyLogger  - Click on cancel for disappear popup
+INFO    2021-10-18 00:07:19,865 [main] devpinoyLogger  - Click on OK for Delete User
+INFO    2021-10-18 00:07:20,911 [main] devpinoyLogger  - User Deleted successfully with message of Successfully Deleted
+INFO    2021-10-18 00:07:23,179 [main] devpinoyLogger  - Successfully message show
+INFO    2021-10-18 00:07:23,354 [main] devpinoyLogger  - User Hover on Admin
+INFO    2021-10-18 00:07:23,544 [main] devpinoyLogger  - User click on job
+INFO    2021-10-18 00:07:23,688 [main] devpinoyLogger  - User click on jobTitles
+INFO    2021-10-18 00:07:24,497 [main] devpinoyLogger  - User successfully land on AddJobTitles Page
+INFO    2021-10-18 00:07:26,570 [main] devpinoyLogger  - Job Add successfully and message show Successfully Saved
+INFO    2021-10-18 00:07:28,618 [main] devpinoyLogger  - Job Add successfully and message show Successfully Saved
+INFO    2021-10-18 00:07:30,489 [main] devpinoyLogger  - Job Add successfully and message show Successfully Saved
+INFO    2021-10-18 00:07:31,831 [main] devpinoyLogger  - Job Deleted successfully and message show Successfully Deleted
+INFO    2021-10-18 00:07:32,974 [main] devpinoyLogger  - User Land on Configure page
+INFO    2021-10-18 00:07:32,976 [main] devpinoyLogger  - Verify Checkbox is disabled for Nick anme
+INFO    2021-10-18 00:07:33,010 [main] devpinoyLogger  - Check box for Show Nick Name, Smoker and Military Service in Personal Details is Enabled: false
+INFO    2021-10-18 00:07:33,047 [main] devpinoyLogger  - Check box for SSN field in Personal Detail is Enabled: false
+INFO    2021-10-18 00:07:33,093 [main] devpinoyLogger  - Check box for SIN field in Personal Details is Enabled: false
+INFO    2021-10-18 00:07:33,127 [main] devpinoyLogger  - Check box for US Tax field in Personal Details is Enabled: false
+INFO    2021-10-18 00:07:33,130 [main] devpinoyLogger  - Click on edit button and uncheck Nickname and SIN field
+INFO    2021-10-18 00:07:33,370 [main] devpinoyLogger  - Verify the status of check boxes after checked
+INFO    2021-10-18 00:07:33,400 [main] devpinoyLogger  - false
+INFO    2021-10-18 00:07:33,425 [main] devpinoyLogger  - Status of SSN field check boxtrue
+INFO    2021-10-18 00:07:33,449 [main] devpinoyLogger  - Status of US tax field check box istrue
+INFO    2021-10-18 00:07:33,450 [main] devpinoyLogger  - click on Save button
+INFO    2021-10-18 00:07:35,711 [main] devpinoyLogger  - User land on Custom Field
+INFO    2021-10-18 00:07:35,714 [main] devpinoyLogger  - User add a custom field
+INFO    2021-10-18 00:07:35,714 [main] devpinoyLogger  - User add first custom field
+INFO    2021-10-18 00:07:35,816 [main] devpinoyLogger  - User select screen
+INFO    2021-10-18 00:07:35,938 [main] devpinoyLogger  - User select type
+INFO    2021-10-18 00:07:36,059 [main] devpinoyLogger  - User Click on button Save
+INFO    2021-10-18 00:07:36,977 [main] devpinoyLogger  - Custom Field successfully added with return messageSuccessfully Saved
+INFO    2021-10-18 00:07:36,981 [main] devpinoyLogger  - Edit user costom field
+INFO    2021-10-18 00:07:37,223 [main] devpinoyLogger  - User select screen
+INFO    2021-10-18 00:07:37,356 [main] devpinoyLogger  - User select type
+INFO    2021-10-18 00:07:37,671 [main] devpinoyLogger  - User Click on button Save
+INFO    2021-10-18 00:07:38,670 [main] devpinoyLogger  - User costom field successfully edit and return message Successfully Saved
+INFO    2021-10-18 00:07:38,673 [main] devpinoyLogger  - Action for Deleted Custom Field
+INFO    2021-10-18 00:07:38,673 [main] devpinoyLogger  - Select check box for delete custom field
+INFO    2021-10-18 00:07:38,798 [main] devpinoyLogger  - User click on button Delete
+INFO    2021-10-18 00:07:38,915 [main] devpinoyLogger  - Popup appear
+INFO    2021-10-18 00:07:38,915 [main] devpinoyLogger  - Click on cancel button for disappear popup
+INFO    2021-10-18 00:07:39,008 [main] devpinoyLogger  - Click on Delete button for appear popup
+INFO    2021-10-18 00:07:39,051 [main] devpinoyLogger  - Click on Ok button
+INFO    2021-10-18 00:07:39,838 [main] devpinoyLogger  - User costom field successfully edit and return message Successfully Deleted
+INFO    2021-10-18 00:07:40,950 [main] devpinoyLogger  - User Land On Data Import section
+INFO    2021-10-18 00:07:40,952 [main] devpinoyLogger  - Click on Download text for Download file
+INFO    2021-10-18 00:07:41,080 [main] devpinoyLogger  - Verify File successfully downloaded
+INFO    2021-10-18 00:07:41,083 [main] devpinoyLogger  - File upload
+INFO    2021-10-18 00:07:41,211 [main] devpinoyLogger  - Click On Upload button
+INFO    2021-10-18 00:07:42,319 [main] devpinoyLogger  - Verify File Uploaded successfully
+INFO    2021-10-18 00:07:42,990 [main] devpinoyLogger  - Required Error Message show
+INFO    2021-10-18 00:07:44,446 [main] devpinoyLogger  - User Land on Reporting Methods
+INFO    2021-10-18 00:07:45,726 [main] devpinoyLogger  - Add Reporting successfully added with message returnSuccessfully Saved
+INFO    2021-10-18 00:07:46,762 [main] devpinoyLogger  - Delete Reporting successfully with message Return Successfully Deleted
+INFO    2021-10-18 00:07:46,862 [main] devpinoyLogger  - User Hover on PIM
+INFO    2021-10-18 00:07:47,012 [main] devpinoyLogger  - Click on Add Employee
+INFO    2021-10-18 00:07:47,806 [main] devpinoyLogger  - Admin land on Add Employee page
+INFO    2021-10-18 00:07:47,853 [main] devpinoyLogger  - Add Employee and take data from excel sheet
+INFO    2021-10-18 00:07:50,494 [main] devpinoyLogger  - Data added successfully from excel
+INFO    2021-10-18 00:07:50,496 [main] devpinoyLogger  - Add Employee and take data from excel sheet
+INFO    2021-10-18 00:07:52,834 [main] devpinoyLogger  - Data added successfully from excel
+INFO    2021-10-18 00:07:52,836 [main] devpinoyLogger  - Add Employee and take data from excel sheet
+INFO    2021-10-18 00:07:55,108 [main] devpinoyLogger  - Data added successfully from excel
+INFO    2021-10-18 00:07:55,112 [main] devpinoyLogger  - Add Employee and take data from excel sheet
+INFO    2021-10-18 00:07:57,353 [main] devpinoyLogger  - Data added successfully from excel
+INFO    2021-10-18 00:07:57,356 [main] devpinoyLogger  - Add Employee and take data from excel sheet
+INFO    2021-10-18 00:07:59,627 [main] devpinoyLogger  - Data added successfully from excel
+INFO    2021-10-18 00:07:59,718 [main] devpinoyLogger  - User Hover on PIM
+INFO    2021-10-18 00:07:59,864 [main] devpinoyLogger  - Click on Employee List
+INFO    2021-10-18 00:08:10,943 [main] devpinoyLogger  - Employee Record Deleted SuccessfullySuccessfully Deleted
+INFO    2021-10-18 00:08:11,738 [main] devpinoyLogger  - Delete Record Not found Successfully
+INFO    2021-10-18 00:08:14,236 [main] devpinoyLogger  - Date Validation Message show
+INFO    2021-10-18 00:08:17,223 [main] devpinoyLogger  - Employee Record Edit Successfully with return message Successfully Saved
+INFO    2021-10-18 00:08:18,576 [main] devpinoyLogger  - Custom Field Edit Successfully
+INFO    2021-10-18 00:08:20,214 [main] devpinoyLogger  - File Attachment Successfully with message return Successfully Saved
+INFO    2021-10-18 00:08:22,106 [main] devpinoyLogger  - Employee Profile Picture Upload Successfully with Return message Successfully Uploaded
+INFO    2021-10-18 00:08:25,229 [main] devpinoyLogger  - Contact Detail Added Successfully with return message Successfully Saved
+INFO    2021-10-18 00:08:27,783 [main] devpinoyLogger  - Emergency Contact Added Successfully with return message Successfully Saved
+INFO    2021-10-18 00:08:30,256 [main] devpinoyLogger  - Immigration Record Added Successfully with return message Successfully Saved
+INFO    2021-10-18 00:08:33,163 [main] devpinoyLogger  - job Added Successfully with return message Successfully Updated
+INFO    2021-10-18 00:08:36,164 [main] devpinoyLogger  - Salary Added Successfully with return message Successfully Saved
+INFO    2021-10-18 00:08:38,470 [main] devpinoyLogger  - Tax Exemption Added Successfully with return message Successfully Saved
+INFO    2021-10-18 00:08:42,182 [main] devpinoyLogger  - Member Ship Edit Successfully with return message Successfully Saved
+INFO    2021-10-18 00:08:45,640 [main] devpinoyLogger  - Edit Employee Deleted Successfully with return message Successfully Deleted
+INFO    2021-10-18 00:08:45,757 [main] devpinoyLogger  - User Click on Buzz menu
+INFO    2021-10-18 00:08:59,433 [main] devpinoyLogger  - User Logout from application
+INFO    2021-10-18 00:09:00,392 [main] devpinoyLogger  - test execution completed !!!
